@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Helping Hands</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+     <string name="code">Codroid Society is a hub of passionate coders and developers.
+                        This society is a solution oriented society where we solve day
+                        to day problems using latest technologies.The society aims at self
+                        initialisation rather than spoon feeding.</string>
+</resources>

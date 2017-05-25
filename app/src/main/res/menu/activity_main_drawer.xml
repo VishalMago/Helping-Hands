@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_orgdeaf"
+            android:icon="@drawable/people"
+            android:title="Organizations for Deaf" />
+        <item
+            android:id="@+id/nav_orgdumb"
+            android:icon="@drawable/people"
+            android:title="Organizations for Dumb" />
+        <item
+            android:id="@+id/nav_symbols"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Sign Language" />
+        <item
+            android:id="@+id/nav_tutorial"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="Tutorial" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Feedback"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

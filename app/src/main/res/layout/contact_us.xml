@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/contactus"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/welcome"
+        android:gravity="center"
+        android:text="AMBALA COLLEGE OF ENGINEERING AND APPLIED RESEARCH"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/text"
+        android:text="info@ambalacollege.com"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:text="9355745503"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:text=" 9996815503"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="CODROID HUB"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:layout_marginTop="50dp"
+        android:text="codroidhub@gmail.com"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
